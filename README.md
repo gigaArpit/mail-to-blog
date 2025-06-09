@@ -10,6 +10,8 @@
 - Hugo + GitHub: Static site generator and hosting
 - Cloudflare Workers: Receives parsed email data, converts to Markdown, commits to GitHub
 
+![workflow](./images/workflow.png)
+
 ## One-Time Setup
 
 ### Hugo Site
