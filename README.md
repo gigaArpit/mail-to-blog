@@ -72,7 +72,7 @@ After completing above one-time setup:
 
 - Send an email to your Postmark inbound address
 - Postmark parses and forwards the content to Cloudflare Worker
-- The Worker pushes a Markdown file to your GitHub repo, with email subject as the post title; and email body as the post content
+- The Worker converts incoming email data into a Markdown file and commits it to your GitHub repository. The email subject becomes the post title; the body becomes the content. You can write your email content using Markdown for rich formatting rather than being limited to plain text.
 - GitHub Actions rebuild the Hugo site, and deploys to Cloudflare Pages platform
 
 Your new post will appear on the live site within minutes.
